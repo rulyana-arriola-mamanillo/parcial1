@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vS.I.A.F - Examen SIS 313</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <h2 class="titulo-procedimiento">Examen SIS 313 - Cédula terminación 1 y 6</h2>
+
+    <!-- PANTALLA 1: GRUPO CONTABLE -->
+    <div class="ventana ventana-grande">
+        <div class="barra-titulo-gris">
+            <span class="titulo">GRUPOS CONTABLES</span>
+            <div class="controles-ventana">
+                <span class="btn-control">_</span><span class="btn-control">□</span><span class="btn-control cerrar">X</span>
+            </div>
+        </div>
+        <div class="barra-unidad-azul">
+            <span class="label-unidad">UNIDAD:</span> <span class="valor-unidad">0252</span>
+            <span class="label-nivel">Nivel Central</span>
+        </div>
+        <div class="titulo-ventana-degradado">GRUPO CONTABLE</div>
+        <div class="contenido-ventana-beige">
+            <div class="form-grupo">
+                <div class="linea-grupo">
+                    <div class="campo-izq">
+                        <label class="label-azul">Grupo</label>
+                        <input type="text" value="2" class="input-mini">
+                    </div>
+                    <div class="campo-der">
+                        <label class="label-azul">Nombre</label>
+                        <div class="input-con-flecha">
+                            <input type="text" value="MUEBLES Y ENSERES DE OFICINA" class="input-amarillo">
+                            <button class="flecha-down">▼</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="linea-grupo">
+                    <div class="campo-izq">
+                        <label class="label-azul">Vida Util</label>
+                        <input type="text" value="10" class="input-mini">
+                    </div>
+                    <div class="campo-der">
+                        <label class="label-azul">Observaciones</label>
+                        <div class="textarea-con-scroll">
+                            <textarea class="input-amarillo-textarea"></textarea>
+                            <div class="scroll-bar"><div class="scroll-up">▲</div><div class="scroll-down">▼</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="checkbox-centro">
+                <input type="checkbox" id="deprecia" checked>
+                <label for="deprecia">Deprecia</label>
+            </div>
+            
+            <div class="tabla-container-relative">
+                <table class="tabla-auxiliares-exacta">
+                    <thead>
+                        <tr>
+                            <th class="th-codigo">CODIGO</th>
+                            <th class="th-nombre">NOMBRE AUXILIAR</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="fila-seleccionada"><td>1</td><td>ACONDICIONADOR DE AIRE</td></tr>
+                        <tr><td>2</td><td>ALACENA</td></tr>
+                        <tr><td>3</td><td>ALFOMBRA O TAPIZ</td></tr>
+                        <tr><td>4</td><td>AMPLIADORA DE FOTOGRAFIA</td></tr>
+                        <tr><td>6</td><td>ARMARIO</td></tr>
+                        <tr><td>7</td><td>ASPIRADORA</td></tr>
+                        <tr><td>8</td><td>ATRIL</td></tr>
+                        <tr><td>9</td><td>BALANZA</td></tr>
+                    </tbody>
+                </table>
+                <div class="nota-flotante">
+                    AUXILIARES CREADOS POR<br>EL USUARIO EN EL GRUPO<br>CONTABLE MUEBLES Y<br>ENSERES DE OFICINA
+                </div>
+                <div class="flecha-nota-1">↗</div>
+                <div class="flecha-nota-2">↘</div>
+            </div>
+
+            <div class="barra-botones-degradado">
+                <button class="btn-degradado">Nuevo</button>
+                <button class="btn-degradado">Modificar</button>
+                <button class="btn-degradado deshabilitado">Guardar</button>
+                <button class="btn-degradado">Eliminar</button>
+                <button class="btn-degradado deshabilitado">Deshacer</button>
+                <button class="btn-degradado">Salir</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- PANTALLA 6: ADMINISTRACION UNIDAD ADMINISTRATIVA -->
+    <div class="ventana ventana-grande">
+        <div class="barra-titulo-negra"></div>
+        <div class="header-azul-siaf">
+            <div class="logo-siaf-texto">S.I.A.F</div>
+            <div class="logo-sub-siaf">Sistema de Activos Fijos</div>
+        </div>
+        <div class="barra-entidad-blanca">
+            <div class="dato-entidad">
+                <span class="label-ent">ENTIDAD:</span> <span class="valor-ent">0025</span>
+                <span class="nombre-ent">Ministerio de la Presidencia</span>
+            </div>
+            <div class="dato-entidad">
+                <span class="label-ent">UNIDAD:</span> <span class="valor-ent">0</span>
+            </div>
+        </div>
+        <div class="pestaña-negra">Unidad Administrativa</div>
+        <div class="titulo-ventana-degradado">ADMINISTRACION UNIDAD ADMINISTRATIVA</div>
+        <div class="contenido-ventana-beige">
+            <div class="tabla-container-con-scroll">
+                <table class="tabla-unidades-exacta">
+                    <thead>
+                        <tr>
+                            <th>UNIDAD</th>
+                            <th>DESCRIPCION</th>
+                            <th>CIUDAD</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+                        <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+                        <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+                        <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+                        <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+                        <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+                        <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+                    </tbody>
+                </table>
+                <div class="scroll-horizontal">
+                    <div class="scroll-left">◄</div>
+                    <div class="scroll-track"></div>
+                    <div class="scroll-right">►</div>
+                </div>
+            </div>
+            <div class="barra-botones-redondeada">
+                <button class="btn-degradado con-borde-doble activo">Nuevo</button>
+                <button class="btn-degradado">Editar</button>
+                <button class="btn-degradado">Eliminar</button>
+                <button class="btn-degradado">Seleccionar</button>
+                <button class="btn-degradado">Salir</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
